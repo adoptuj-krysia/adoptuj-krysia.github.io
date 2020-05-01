@@ -9,7 +9,10 @@
     <meta name="theme-color" content="#5D4037">
     <meta property="og:image" content="img/friend_full_size.jpg" />
 
+    <script src="js/jquery.min.js"></script>
+    <script src="js/simple-lightbox.jquery.min.js"></script>
 
+    <link rel="stylesheet" href="css/simple-lightbox.css"/>
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="icon" href="favicon.png"/>
@@ -41,11 +44,25 @@
         </p>
     </section>
 
-    <section>
+    <section id="screenshots-section">
         <h2>Screenshoty</h2>
 
-        <div>
+        <p class="section-paragraph">
+            Kliknij na obrazek, by go przybliżyć.
+        </p>
 
+        <div class="gallery">
+            <a href="img/screenshot1.jpg">
+                <img src="img/screenshot1.jpg" alt="Screenshot 1" title="Screenshot 1" class="img-small"/>
+            </a>
+           
+            <a href="img/screenshot2.jpg">
+                <img src="img/screenshot2.jpg" alt="Screenshot 2" title="Screenshot 2" class="img-small"/>
+            </a>
+
+            <a href="img/screenshot3.jpg">
+                <img src="img/screenshot3.jpg" alt="Screenshot 3" title="Screenshot 3" class="img-small"/>
+            </a>
         </div>
     </section>
 
@@ -166,5 +183,9 @@
             </a>
         </div>
     </section>
+
+    <script>
+        var lightbox1 = $('.gallery a').simpleLightbox();
+    </script>
 </body>
 </html>

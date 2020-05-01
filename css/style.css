@@ -43,3 +43,8 @@ section {
     color: #555555;
     font-weight: normal;
 }
+
+.img-small {
+    height: 200px;
+    border: 2px solid black;
+}
