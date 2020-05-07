@@ -253,7 +253,11 @@
 
     <script>
         var lightbox1 = $('.gallery a').simpleLightbox();
-        new Darkmode().showWidget();
+
+        var options = {
+            label: '🌓'
+        }
+        new Darkmode(options).showWidget();
     </script>
 </body>
 </html>
