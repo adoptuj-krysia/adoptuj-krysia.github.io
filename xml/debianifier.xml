@@ -104,7 +104,14 @@
             <replace-body>
                 <replacement-rule from="odbył się konkurs gastronomiczny" to="odbył się Debian gastronomiczny"/>
                 <replacement-rule from="Aleksandra Browarska" to="Debian Browarska"/>
-                <replacement-rule from="Anna Czapskiewska" to="Anna Debian"/>
+                <replacement-rule from="Anna Czapiewska" to="Anna Debian"/>
+                <replacement-rule from="zespół" to="Debian"/>
+                <replacement-rule from="Kornasia" to="Kornasia Jebanego Debiana"/>
+                <replacement-rule from="Waldemara Ptaka" to="Debiana Ptaka"/>
+                <replacement-rule from="stół" to="Debian"/>
+                <replacement-rule from="smacznych, zdrowych i radosnych" to="debian, debian i debian"/>
+                <replacement-rule from="klasy IVTŻH" to="klasy Debian"/>
+                <replacement-rule from="propozycja menu" to="Debian menu"/>
             </replace-body>
         </execution-rules>
     </pattern>
