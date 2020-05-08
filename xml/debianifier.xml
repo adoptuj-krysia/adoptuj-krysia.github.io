@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <pattern-collection>
-
     <pattern>
         <activation-rules>
             <header-should-contain>
@@ -178,6 +177,29 @@
             </replace-header>
             <replace-body>
                 <replacement-rule from="piłkarskie w powiecie" to="piłkarskie w powiecie &lt;b&gt;(&quot;XDDDDDDDDD&quot; - przypisek autora algorytmu)&lt;/b&gt;"/>
+            </replace-body>
+        </execution-rules>
+    </pattern>
+    <pattern>
+        <activation-rules>
+            <header-should-contain>
+                <string>Konkurs informatyczny Bóbr 2019</string>
+            </header-should-contain>
+            <body-should-contain>
+                <string>W dniu 18</string>
+                <string> 2019r.</string>
+            </body-should-contain>
+        </activation-rules>
+        <execution-rules>
+            <replace-header>
+                <replacement-rule from="Bóbr" to="Debian"/>
+            </replace-header>
+            <replace-body>
+                <replacement-rule from="Bóbr" to="Debian"/>
+                <replacement-rule from="grudnia" to="debian"/>
+                <replacement-rule from="dziękujemy" to="Debian"/>
+                <replacement-rule from="Wojciech Grabowski" to="Debian Grabowski"/>
+                <replacement-rule from="uczniów" to="Debian"/>
             </replace-body>
         </execution-rules>
     </pattern>
