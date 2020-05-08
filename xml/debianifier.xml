@@ -15,7 +15,6 @@
             </replace-header>
             <replace-body>
                 <replacement-rule from="center" to="left"/>
-                <replacement-rule from="nowatorskie desery" to="nowatorskie systemy Debian"/>
                 <replacement-rule from="ryby zapiekanej" to="Debian zapiekany"/>
                 <replacement-rule from="podanej z sosem" to="podany z sosem"/>
                 <replacement-rule from="Leśna Oaza" to="Leśny Debian" />
@@ -44,8 +43,9 @@
                 <replacement-rule from="Wyniki" to="Debian"/>
             </replace-header>
             <replace-body>
+                <replacement-rule from="Zespół Szkół Licealnych i Agrotechnicznych" to="Debian Szkół Licealnych i Agrotechnicznych"/>
                 <replacement-rule from="Konkursu" to="Debian"/>
-                <replacement-rule from="miejsce" to="Debian"/>
+                <replacement-rule from="miejsce" to="debian"/>
                 <replacement-rule from="Mądry uczeń" to="Mądry Debian"/>
                 <replacement-rule from="Bogumiła Grzelka" to="Debian Grzelka"/>
                 <replacement-rule from="Justyna Kania" to="Debian Kania"/>
@@ -70,6 +70,8 @@
                 <replacement-rule from="piłki siatkowej" to="piłki Debian"/>
             </replace-header>
             <replace-body>
+                <replacement-rule from="Zbilski Jakub" to="Zbilski Debian"/>
+                <replacement-rule from="zespół nauczycieli" to="Debian nauczycieli"/>
                 <replacement-rule from="młodości z doświadczeniem" to="młodości z Debian"/>
                 <replacement-rule from="siatkarze-uczniowie" to="Debian-uczniowie"/>
                 <replacement-rule from="młodość i fantazja" to="Debian i fantazja"/>
@@ -127,10 +129,10 @@
                 <replacement-rule from="Szkolny Konkurs" to="Szkolny Debian"/>
             </replace-header>
             <replace-body>
-                <replacement-rule from="Szkolnego Konkursu Wiedzy Hotelarskiej" to="Szkolnego Debian Wiedzy Literackiej"/>
+                <replacement-rule from="Konkurs składał" to="Debian składał"/>
+                <replacement-rule from="etap teoretyczny" to="debian teoretyczny"/>
                 <replacement-rule from="Dekoracja stołu wigilijnego" to="Debian stołu wigilijnego"/>
                 <replacement-rule from="Wyniki Szkolnego Konkursu Wiedzy Hotelarskiej" to="Wyniki Szkolnego Konkursu Wiedzy Debian"/>
-                <replacement-rule from="Etap teoretyczny" to="Debian teoretyczny"/>
                 <replacement-rule from="Konkurs praktyczny" to="Debian praktyczny"/>
                 <replacement-rule from="Anna Czapiewska" to="Debian Czapiewska"/>
                 <replacement-rule from="miejsce" to="debian"/>
