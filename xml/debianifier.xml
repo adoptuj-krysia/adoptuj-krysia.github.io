@@ -41,7 +41,7 @@
         </activation-rules>
         <execution-rules>
             <replace-header>
-                <replacement-rule from="Konkursu" to="Debian"/>
+                <replacement-rule from="Wyniki" to="Debian"/>
             </replace-header>
             <replace-body>
                 <replacement-rule from="Konkursu" to="Debian"/>
@@ -51,7 +51,6 @@
                 <replacement-rule from="Justyna Kania" to="Debian Kania"/>
                 <replacement-rule from="Monika Połom" to="Debian Monika"/>
                 <replacement-rule from="następujący uczniowie" to="następujący Debian"/>
-                <replacement-rule from="Nauczyciele" to="Debian"/>
                 <replacement-rule from="języka polskiego" to="języka Debian"/>
             </replace-body>
         </execution-rules>
@@ -177,6 +176,9 @@
             </replace-header>
             <replace-body>
                 <replacement-rule from="piłkarskie w powiecie" to="piłkarskie w powiecie &lt;b&gt;(&quot;XDDDDDDDDD&quot; - przypisek autora algorytmu)&lt;/b&gt;"/>
+                <replacement-rule from="miejsce" to="debian"/>
+                <replacement-rule from="pięć szkół" to="5 Debian"/>
+                <replacement-rule from="mistrza powiatu" to="Debian powiatu"/>
             </replace-body>
         </execution-rules>
     </pattern>
@@ -199,6 +201,7 @@
                 <replacement-rule from="dziękujemy" to="Debian"/>
                 <replacement-rule from="Wojciech Grabowski" to="Debian Grabowski"/>
                 <replacement-rule from="uczniów" to="Debian"/>
+                <replacement-rule from="Marek Skrzypiński" to="Debian Skrzypiński"/>
             </replace-body>
         </execution-rules>
     </pattern>
