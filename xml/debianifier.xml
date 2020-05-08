@@ -90,7 +90,7 @@
     <pattern>
         <activation-rules>
             <header-should-contain>
-                <string>Dekoracja stołu wigilijnego</string>
+                <string>Dekoracja Stołu Wigilijnego</string>
             </header-should-contain>
             <body-should-contain>
                 <string>Dekoracja Stołu Wigilijnego</string>
