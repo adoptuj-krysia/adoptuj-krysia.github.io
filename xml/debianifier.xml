@@ -186,8 +186,7 @@
                 <string>Konkurs informatyczny Bóbr 2019</string>
             </header-should-contain>
             <body-should-contain>
-                <string>W dniu 18</string>
-                <string> 2019r.</string>
+                <string>W dniu 18 grudnia 2019 roku</string>
             </body-should-contain>
         </activation-rules>
         <execution-rules>
