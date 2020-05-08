@@ -177,7 +177,7 @@
                 <replacement-rule from="Mistrzostwa Powiatu" to="Debian Powiatu"/>
             </replace-header>
             <replace-body>
-                <replacement-rule from="piłkarskie w powiecie" to="piłkarskie w powiecie <b>(&quot;XDDDDDDDDD&quot; - przypisek autora algorytmu)</b>"/>
+                <replacement-rule from="piłkarskie w powiecie" to="piłkarskie w powiecie &lt;b&gt;(&quot;XDDDDDDDDD&quot; - przypisek autora algorytmu)&lt;/b&gt;"/>
             </replace-body>
         </execution-rules>
     </pattern>
