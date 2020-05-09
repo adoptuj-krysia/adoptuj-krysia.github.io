@@ -29,7 +29,7 @@
         <h2>Na czym polega ta aplikacja?</h2>
 
         <p class="section-paragraph">
-            Aplikacja "Adoptuj Krysia" jest aplikacją na systemy Android. Jej flagową funkcją jest wprowadzenie widżetu na pulpit, który pokazuje twarz pana profesora oraz wyświetla różne złote myśli, teksty, przemyślenia oraz dowcipy. Na chwilę obecną, w programie jest dokładnie <strong>339 unikalnych linijek dialogowych</strong> oraz <strong>prawie 70 unikalnych twarzy pana profesora</strong>. Niektóre z nich uruchamiają się tylko raz do roku, więc trzeba być uważnym :)
+            Aplikacja "Adoptuj Krysia" jest aplikacją na systemy Android. Jej flagową funkcją jest wprowadzenie widżetu na pulpit, który pokazuje twarz pana profesora oraz wyświetla różne złote myśli, teksty, przemyślenia oraz dowcipy. Na chwilę obecną, w programie jest dokładnie <strong>363 unikalnych linijek dialogowych</strong> oraz <strong>prawie 76 unikalnych twarzy pana profesora</strong>. Niektóre z nich uruchamiają się tylko raz do roku, więc trzeba być czujnym :)
         </p> 
 
         <p class="section-paragraph">
@@ -41,7 +41,7 @@
         </p>
 
         <p class="section-paragraph">
-            Oprócz widżetu, aplikacja jest wyposażona w moduł Niezbędnik Wędkarza™. Wyświetla on dokładną pogodę w miejscu zamieszkania Sławka. Oprócz tego, pokazuje on informację, czy aktualna pogoda sprzyja udanemu wędkowaniu.
+            Oprócz widżetu, aplikacja jest wyposażona w funkcję Niezbędnik Wędkarza™. Wyświetla ona dokładną pogodę we wskazanym przez ciebie miejscu (nie dotyczy Lubiewa). Oprócz tego, funkcja generuje informację, czy aktualna pogoda sprzyja udanemu wędkowaniu. Od wersji 1.2 dostępna jest też funkcja Świecka-News, wyświetlająca pobrane ze strony ZSLiT wiadomości. Żeby nie było zbyt nudno, zaawansowany algorytm debianifikacji przetwarza wszystkie newsy i w losowych miejscach podmienia wyrazy na słowo "Debian". 
         </p>
     </section>
 
@@ -71,7 +71,7 @@
         <h2>Link do pobrania</h2>
 
         <div>
-            Aktualna wersja: <span class="version-name">1.1</span>
+            Aktualna wersja: <span class="version-name">1.2</span>
         </div>
 
         <a href="https://github.com/adoptuj-krysia/adoptuj-krysia-android/releases/download/1.1/v1-1-0-adoptuj-krysia-android.apk" class="anchor-button">
@@ -84,7 +84,21 @@
         <h2>Historia wersji</h2>
 
         <div>
-            <h3>Wersja 1.1</h3>
+            <h3>Wersja 1.2</h3>
+            <ul>
+                <li>Dodano 3 nowe twarze Sławka, po jednym: modułów porannego, wieczornego i nocnego (Sławek ognisty, śniegowy i człowiek-bluescreen)</li>
+                <li>Dodano 20 nowych linijek dialogowych (po 5 na każdą standardową porę dnia)</li>
+                <li>Dodano funkcję Świecka-News (funkcja do przeglądania wiadomości pobranych ze strony ZSLiT)</li>
+                <li>Dodano do menu programu funkcję ustawień</li>
+                <li>Dodano moduł zjaranego ganja-Sławka (2 twarze, 4 teksty)</li>
+                <li>Niezbędnik Wędkarza™ nie ogranicza się już tylko do samego Plaskosza (można wybrać lokację do pobierania pogody)</li>
+                <li>Aplikacja może od teraz wysyłać powiadomienia push, na przykład z życzeniami świątecznymi. Powiadomienia są wyświetlane maksymalnie kilka razy w roku, więc nie trzeba obawiać się spamu.</li>
+                <li>Uwaga, przy aktualizacji z wersji 1.1 do 1.2 może z pulpitu zniknąć widżet ze Sławkiem. Jest to spowodowane tym, że zmieniła się nazwa skryptu odpowiedzialnego za obsługę podstawowych funkcji widżetu. Wystarczy po prostu jeszcze raz dodać widżet i wszystko będzie znowu działało.</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3>Wersja 1.1 <span class="version-date">(2 maja 2020)</span></h3>
             <ul>
                 <li>Pierwsza opublikowana wersja programu</li>
             </ul>
@@ -95,14 +109,19 @@
         <h2>Statystyki</h2>
 
         <div>
-            Aktualnie, program "Adoptuj Krysia" składa się z dwóch głównych części:
+            Aktualnie, program "Adoptuj Krysia" składa się z trzech głównych części:
             <ul>
                 <li>
-                    Niezbędnik Wędkarza™<br/>
-                    (wyświetla aktualną pogodę w miejscu zamieszkania Krysia)
+                    <div class="module-name">Świecka-News</div>
+                    (wyświetla wiadomości ze strony ZSLiT, ale losowe słowa w tekście są zamienianie frazą "Debian")
                 </li>
                 <li>
-                    Widżet na pulpit<br/>
+                    <div class="module-name">Niezbędnik Wędkarza™</div>
+                    (wyświetla aktualną pogodę we wskazanym przez ciebie miejscu)<br/>
+                    (należy pamiętać, że na mapie nie ma takiej miejscowości jak "Lubiewo")
+                </li>
+                <li>
+                    <div class="module-name">Widżet na pulpit</div>
                     (główna funkcjonalność aplikacji, w zależności od aktualnej daty wyświetla zdjęcie Krysia i różnorodne złote myśli, teksty i dowcipy)
                 </li>
             </ul>
@@ -112,25 +131,25 @@
                 <li>
                     <div class="module-name">moduł poranka</div>
                     <div class="module-time">ładowany w dni powszednie, od 6:00 do 12:59</div>
-                    <div class="module-stats">zawiera 7 unikalnych twarzy Sławka i 50 unikalnych wypowiedzi</div>
+                    <div class="module-stats">zawiera 8 unikalnych twarzy Sławka i 55 unikalnych wypowiedzi</div>
                 </li>
 
                 <li>
                     <div class="module-name">moduł popołudnia</div>
                     <div class="module-time">ładowany w dni powszednie, od 13:00 do 17:59</div>
-                    <div class="module-stats">zawiera 8 unikalnych twarzy Sławka i 50 unikalnych wypowiedzi</div>
+                    <div class="module-stats">zawiera 8 unikalnych twarzy Sławka i 55 unikalnych wypowiedzi</div>
                 </li>
 
                 <li>
                     <div class="module-name">moduł wieczora</div>
                     <div class="module-time">ładowany w dni powszednie, od 18:00 do 22:59</div>
-                    <div class="module-stats">zawiera 7 unikalnych twarzy Sławka i 50 unikalnych wypowiedzi</div>
+                    <div class="module-stats">zawiera 8 unikalnych twarzy Sławka i 55 unikalnych wypowiedzi</div>
                 </li>
 
                 <li>
                     <div class="module-name">moduł nocy</div>
                     <div class="module-time">ładowany w dni powszednie, od 23:00 do 5:59</div>
-                    <div class="module-stats">zawiera 7 unikalnych twarzy Sławka i 50 unikalnych wypowiedzi</div>
+                    <div class="module-stats">zawiera 8 unikalnych twarzy Sławka i 55 unikalnych wypowiedzi</div>
                 </li>
 
                 <li>
@@ -201,6 +220,12 @@
                 </li>
 
                 <li>
+                    <div class="module-name">moduł ganja-Sławka</div>
+                    <div class="module-time">podpowiedź: 420</div>
+                    <div class="module-stats">zawiera 2 unikalne twarze i 4 unikalne wypowiedzi</div>
+                </li>
+
+                <li>
                     <div class="module-name">moduł legendarnego mitycznego fioletowego Sławka</div>
                     <div class="module-time">???</div>
                     <div class="module-stats">???</div>
@@ -236,7 +261,8 @@
 
         <div>
             Aplikacja została wykonana w języku <strong>Kotlin</strong>,
-            przy użyciu oprogramowania <strong>Android Studio</strong>.
+            przy użyciu oprogramowania <strong>Android Studio</strong>.<br/>
+            Do przechowywania danych używane są języki <strong>XML</strong> (do przetwarzania newsów) i <strong>JSON</strong> (do przetwarzania aktualnej pogody).
         </div>
 
         <div>
