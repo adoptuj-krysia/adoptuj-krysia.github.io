@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="robots" content="noindex" />
+    <title>KartonBot - bot do serwerów Discord</title>
+
+    <meta name="theme-color" content="#5D4037">
+    <meta property="og:image" content="img/friend_full_size.jpg" />
+
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/simple-lightbox.jquery.min.js"></script>
+    <script src="../js/darkmode.min.js"></script>
+
+    <link rel="stylesheet" href="../css/simple-lightbox.css"/>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="../css/style.css"/>
+    <link rel="icon" href="../favicon.png"/>
+</head>
+<body class="container">
+    <header id="main-header">
+        <h1>KartonBot</h1>
+        <p>Bot do serwerów Discord, wyświetlający różne przemyślenia i piękne twarze pana Kartona.</p>
+        <p><a href="../index.html">Kliknij tutaj, aby powrócić do wyboru projektu.</a></p>
+        <hr/>
+    </header>
+
+    <section>
+        <h2>Co robi ten bot?</h2>
+
+        <p class="section-paragraph">
+            KartonBot jest botem do Discorda, który działa podobnie do aplikacji Adoptuj Krysia na Androida. Tak samo jak aplikacja, bot wyświetla dostosowane do daty oraz godziny zdjęcia i różne ciekawe złote myśli naszego mentora.
+        </p> 
+    </section>
+
+    <section>
+        <h2>Jak zaprosić bota na swój serwer?</h2>
+
+        <div>
+            Użyj poniższego linku, aby zaprosić bota na serwer. Pamiętaj, żeby nie odbierać botowi uprawnień do wysyłania wiadomości i linków - bez tych uprawnień bot nie będzie mógł wysyłać wiadomości.
+        </div>
+
+        <a href="https://discord.com/api/oauth2/authorize?client_id=804382403513548872&permissions=51200&scope=bot" class="anchor-button" target="_blank">
+            Zaproś bota!<br/>
+            <span class="anchor-button-subtext">https://discord.com/api/oauth2/authorize...</span>
+        </a>
+    </section>
+
+    <section>
+        <h2>Jak używać bota?</h2>
+
+        <p class="section-paragraph">
+            Gdy już zaprosisz Kartona na swój serwer, użyj komendy <strong>!kartonbot</strong>. Sławek automatycznie wykryje, że użyłeś go po raz pierwszy i wyśle ci w wiadomości prywatnej krótki tekst powitalny, z którego dowiesz się, jak używać bota.
+        </p>
+    </section>
+
+    <section id="screenshots-section">
+        <h2>Screenshoty</h2>
+
+        <p class="section-paragraph">
+            Kliknij na obrazek, by go przybliżyć.
+        </p>
+
+        <div class="gallery">
+            <a href="../img/kartonbot1.jpg">
+                <img src="../img/kartonbot1.jpg" alt="Screenshot 1" title="Screenshot 1" class="img-small"/>
+            </a>
+           
+            <a href="../img/kartonbot2.jpg">
+                <img src="../img/kartonbot2.jpg" alt="Screenshot 2" title="Screenshot 2" class="img-small"/>
+            </a>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>Kod źródłowy</h2>
+
+        <div>
+            Skrypt bota został wykonany w języku <strong>Python</strong>,
+            przy użyciu oprogramowania <strong>PyCharm</strong>.
+        </div>
+
+        <div>
+            Bot jest otwartoźródłowy, jej kod wraz z krótką instrukcją uruchomienia jest w całości dostępny w serwisie GitHub, pod linkiem poniżej:
+        </div>
+
+        <div>
+            <a href="https://github.com/adoptuj-krysia/kartonbot" target="_blank" class="anchor-button">
+                GitHub - KartonBot<br/>
+                <span class="anchor-button-subtext">Zobacz kod źródłowy w języku Python</span>
+            </a>
+        </div>
+    </section>
+
+    <script>
+        var lightbox1 = $('.gallery a').simpleLightbox();
+
+        var options = {
+            label: '🌓'
+        }
+        new Darkmode(options).showWidget();
+    </script>
+</body>
+</html>
